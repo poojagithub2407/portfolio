@@ -25,7 +25,7 @@ const Navbar = () => {
                     </div>
                     <div>
                         <h1 className='font-semibold text-xl cursor-pointer'>Pooja</h1>
-                        <p className='text-sm'>React Js Developer</p>
+                        <p className='text-sm'>Web application Developer</p>
                     </div>
                 </div>
                 <div>

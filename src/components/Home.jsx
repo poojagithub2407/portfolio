@@ -29,11 +29,7 @@ const Home = () => {
                          </div>
                          <br />
                          <p className="text-sm md:text-md text-justify">
-                              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                              Quisquam, recusandae consequatur. Accusamus sint libero eligendi
-                              laborum fuga repudiandae? Asperiores tempore eos animi dolores
-                              corrupti! Sint quos, mollitia architecto aliquam nesciunt, optio
-                              cum delectus sit voluptatum aut ratione quaerat veniam aperiam!
+                         Hello, I'm a Web application Developer with a passion for crafting innovative and efficient web applications. I specialize in leveraging the MERN stack to build scalable and interactive user interfaces that deliver exceptional user experiences.
                          </p>
                          <br />
                          <div className="flex flex-col md:flex-row justify-between items-center space-y-6 md:space-x-0 ">
