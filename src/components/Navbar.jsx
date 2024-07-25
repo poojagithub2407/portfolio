@@ -14,19 +14,18 @@ const Navbar = () => {
     const [menu, setMenu] = useState(false);
 
     return (
-        <div className="max-w-screen-2xl container mx-auto px-4 md:px-20 shadow-md h-16 fixed top-0 left-0 right-0 z-50 bg-white">
+        <div className="max-w-screen-2xl container mx-auto px-4 md:px-20 shadow-md h-16 fixed top-0 text-white left-0 right-0 z-50 bg-violet-500">
             <div className='flex justify-between items-center h-16'>
-                <div className="flex space-x-2">
-                    <div>
-                        <img
-                            src={profile}
-                            className="h-12 w-12 rounded-full"
-                        />
-                    </div>
-                    <div>
-                        <h1 className='font-semibold text-xl cursor-pointer'>Pooja</h1>
-                        <p className='text-sm'>Web application Developer</p>
-                    </div>
+            <div className='text-3xl font-bold'>
+                    <Link
+                        to="Home"
+                        smooth={true}
+                        duration={500}
+                        offset={-70}
+                        className='cursor-pointer'
+                    >
+                        MySite
+                    </Link>
                 </div>
                 <div>
                     <ul className='hidden md:flex space-x-8'>
@@ -50,7 +49,7 @@ const Navbar = () => {
                 </div>
             </div>
             {menu && (
-                <div className='bg-white'>
+                <div className='bg-white text-black'>
                     <ul className='md:hidden flex flex-col items-center h-screen justify-center space-y-3 text-xl'>
                         {navItems.map((navItem) => (
                             <li className='hover:scale-105 duration-200 cursor-pointer' key={navItem.id}>

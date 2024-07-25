@@ -47,7 +47,7 @@ const Experiance = () => {
           name='Experience'
           className='max-w-screen-2xl container mx-auto px-4 md:px-20 my-16'>
                <div>
-                    <h1 className='text-3xl font-bold mb-5'>Experiance</h1>
+                    <h1 className='text-3xl font-bold mb-5 text-violet-700'>Experiance</h1>
                     <p>
                          I've more than 2 years of experiance in below technologies.
                     </p>
