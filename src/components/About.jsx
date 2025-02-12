@@ -18,7 +18,7 @@ const About = () => {
 
             <h2 className='text-violet-700 font-semibold text-xl mb-4'>Skills & Expertise</h2>
             <p className='mb-8'>
-                I am proficient in JavaScript and TypeScript, and experienced with web technologies such as HTML5 and CSS3. I have extensive knowledge of frameworks and libraries including ReactJS, Bootstrap, Chart.js, Redux, and Angular. Additionally, I am skilled in using tools like GitHub, Git, and VS Code for version control and development.
+                I am proficient in JavaScript and TypeScript, and experienced with web technologies such as HTML5 and CSS3. I have extensive knowledge of frameworks and libraries including ReactJS, Bootstrap, Chart.js, Redux. Additionally, I am skilled in using tools like GitHub, Git, and VS Code for version control and development.
             </p>
 
             <h2 className='text-violet-700 font-semibold text-xl mb-4'>Professional Experience</h2>
